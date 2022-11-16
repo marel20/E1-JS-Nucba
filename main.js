@@ -255,7 +255,7 @@ nombrePrecio.forEach((pizza) => {
 })
 
 //Respuesta d)
-const ingredientesPizza = pizza.sort((pizza) => {
+const ingredientesPizza = pizza.filter((pizza) => {
     return pizza.nombre, pizza.ingredientes;
 });
 
